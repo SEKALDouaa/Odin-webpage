@@ -78,3 +78,48 @@ button{
     border: none;
     font-size: 18px;
 }
+
+.random{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+.content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+}
+
+.square-texts{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    max-width: 180px;
+}
+
+.square{
+    flex-shrink: 0;
+    min-height: 150px;
+    min-width: 150px;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+}
+
+.text{
+    text-align: center;
+    color: rgb(107, 106, 106);
+}
