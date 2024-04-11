@@ -123,3 +123,27 @@ button{
     text-align: center;
     color: rgb(107, 106, 106);
 }
+
+.content3{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    justify-content: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    max-width: 800px;
+    color:#1F2937;
+    align-self: center;
+}
+
+.writer{
+    display: flex;
+    justify-content: flex-end;
+    color:#1F2937;
+    margin-right: 230px;
+    font-weight: bold;
+}
