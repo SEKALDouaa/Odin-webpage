@@ -97,6 +97,7 @@ button{
 
 .square-texts{
     display: flex;
+    flex-wrap: wrap;
     gap: 32px;
     justify-content: center;
     align-items: center;
@@ -177,4 +178,12 @@ button{
 
 .sign2{
     border: 2px solid #E5E7EB;
+}
+
+.footer{
+    background-color: #1F2937;
+    justify-content: center;
+    text-align: center;
+    color: #E5E7EB; 
+    padding: 20px;
 }
