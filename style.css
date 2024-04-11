@@ -147,3 +147,34 @@ button{
     margin-right: 230px;
     font-weight: bold;
 }
+
+.content4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.message{
+    background-color: #3882F6;
+    border-radius: 10px;
+    min-width: 900px;
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.up{
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+
+.down{
+    color: #E5E7EB;
+}
+
+.sign2{
+    border: 2px solid #E5E7EB;
+}
